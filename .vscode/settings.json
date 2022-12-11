@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "json-simple-1.1.1.jar",
+        "mysql-connector-java-8.0.30.jar",
+        "commons-dbcp2-2.9.0.jar",
+        "commons-logging-1.2.jar",
+        "commons-pool2-2.6.2.jar"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+  "mvc": [
+    {
+      "transactionId": "1",
+      "name": "sumarFraccion",
+      "control": "mvc.control.ControlMenu1",
+      "model": "mvc.model.Fraccion",
+      "function": "sumar"
+    },
+    {
+      "transactionId": "2",
+      "name": "restarFraccion",
+      "control": "mvc.control.ControlMenu1",
+      "model": "mvc.model.Fraccion",
+      "function": "restar"
+    },
+    {
+      "transactionId": "3",
+      "name": "multiplicarFraccion",
+      "control": "mvc.control.ControlMenu1",
+      "model": "mvc.model.Fraccion",
+      "function": "multiplicar"
+    },
+    {
+      "transactionId": "4",
+      "name": "dividirFraccion",
+      "control": "mvc.control.ControlMenu1",
+      "model": "mvc.model.Fraccion",
+      "function": "dividir"
+    }
+  ],
+  "log": [
+    {
+      "pattern": "src/logger/log/MyLogger.log",
+      "limit": "1000",
+      "maxLogFiles": "4"
+    }
+  ],
+  "databaseAccess": [
+    {
+      "databaseId": "",
+      "url": "",
+      "user": "",
+      "password": "",
+      "port": "",
+      "connectionTimeout": ""
+    },
+    {
+      "databaseId": "",
+      "url": "",
+      "user": "",
+      "password": "",
+      "port": "",
+      "connectionTimeout": ""
+    }
+  ],
+  "connectionPool": [
+    {
+      "maxConnections": "",
+      "databaseAccess": [
+        {
+          "databaseId": "",
+          "url": "",
+          "user": "",
+          "password": "",
+          "port": "",
+          "connectionTimeout": ""
+        },
+        {
+          "databaseId": "",
+          "url": "",
+          "user": "",
+          "password": "",
+          "port": "",
+          "connectionTimeout": ""
+        }
+      ]
+    }
+  ]
+}
